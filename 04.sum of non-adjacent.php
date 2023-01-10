@@ -21,7 +21,7 @@ return (($incl > $excl)? $incl : $excl);
 }
 
 
-$arr = array(2,4,6,2,5);
+$arr = array(5,4,2,5);
 $n = sizeof($arr);
 echo FindMaxSum($arr, $n);
 	
